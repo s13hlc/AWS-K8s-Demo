@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
         - name: s13hlc-springboot
-          image: s13hlc/s13hlc-docker-demo:s13hlc-docker-aws-demo
+          image: s13hlc/aws-k8s-demo:s13hlc-docker-aws-demo
+          
           ports:
             - containerPort: 8080
           env:
